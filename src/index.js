@@ -2,8 +2,8 @@ import './styles.css';
 
 window.ml = cloudinary.createMediaLibrary(
   {
-    cloud_name: 'yelenik',
-    api_key: '428712716519232',
+    cloud_name: '<your_cloud_name>',
+    api_key: '<your_api_key>',
     remove_header: false,
     max_files: '1',
     insert_caption: 'Insert',
